@@ -1,0 +1,523 @@
+
+/* Logo */
+.logo{
+    top: 0px;
+}
+
+
+
+/* Home Page background */
+.back-img{
+    background-image: url(images/3d-render-gold-confetti-free-png.webp);
+    background-color: #f3cecd;
+    height:700px;
+    z-index: 0;
+    
+}
+
+/* Home Page Image settings */
+.image-containerup{
+    width: 490px;
+    height: 600px;
+    padding-bottom:0px;
+    margin: 60px 30px 20px 20px;
+    position: absolute;
+    border-top: 15px double #FFF2CC;
+    border-bottom: 15px double #FFF2CC;
+    animation: first 3s linear; 
+}
+
+@keyframes first {
+    0% {
+        width: 0px;
+        height: 600px;
+        /* border-top-color: #fae899; */
+        border-top-color: #FFF2CC;
+        border-right-color: transparent;
+        border-bottom-color: #FFF2CC;
+        border-left-color: transparent;
+    }
+
+ 
+    100% {
+        width: 490px;
+        height: 600px;
+        border-top-color: #FFF2CC;
+        border-right-color: transparent;
+        border-bottom-color: #FFF2CC;
+        border-left-color: transparent;
+    }
+}
+
+.image-containerside1{
+    width: 490px;
+    height: 590px;
+    margin-top: -10px;
+    position: absolute;
+    border-left:15px double #FFF2CC;
+    animation: second 3s linear ; 
+}
+
+@keyframes second {
+    0% {
+        width: 490px;
+        height: 0;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: #FFF2CC;
+    }
+ 
+    100% {
+        width: 490px;
+        height: 590px;
+        border-top-color:transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: #FFF2CC;
+    }
+    
+}
+
+.image-containerside2{
+    width: 490px;
+    height: 590px;
+    margin-top: -10px;
+    position: absolute;
+    border-right:15px double #FFF2CC ;
+    animation: secondbod 3s linear ; 
+}
+
+@keyframes secondbod {
+    0% {
+        width: 490px;
+        height: 0;
+        border-top-color: transparent;
+        border-right-color: #FFF2CC;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+ 
+    100% {
+        width: 490px;
+        height: 590px;
+        border-top-color:transparent;
+        border-right-color: #FFF2CC;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+    
+}
+
+
+@keyframes last {
+    0%{
+        border-color: transparent;
+        width: 0px;
+        height: 0px;
+    }
+
+    25%{
+        width: 125px;
+        height: 150px;
+    }
+
+    50%{
+        width: 250px;
+        height: 300px;
+    }
+
+    75%{
+        width: 375px;
+        height: 450px;
+    }
+
+    100%{
+        width: 500px;
+        height: 600px;
+    }
+    
+}
+
+img {
+    position: absolute;
+    
+}
+
+.img1 {
+    width: 390px;
+    height: 300px;
+    left: 30px;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.img2 {
+    width: 380px;
+    height: 340px;
+    top: 220px;
+    left: 80px;
+
+} 
+
+/* Title of Home Page */
+
+
+
+.heading-container{
+    background-color: rgba(157, 0, 255, 0.2);
+    position:absolute;
+    width: 850px;
+    height: 350px;
+    top: 260px; 
+    left: 400px; 
+    text-align: center;
+    z-index: 2;
+    animation: slide 2s linear;
+}
+
+@keyframes slide {
+    0%{
+        left:450px;
+    }
+
+    100%{
+        left:400px;
+    }
+}
+
+
+.main-head {
+    color: white;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    font-family: 'Alegreya', serif;
+    letter-spacing: .96rem;
+    font-size: 100px;
+    
+}
+
+.subtitle {
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    font-family: 'Alegreya Sans', sans-serif;
+    letter-spacing: .3rem;
+    font-size: 35px;
+
+}
+
+.bottom-border-upper{
+    margin-left: 400px;
+    position:absolute;
+    background-color: rgb(244, 120, 74);
+    width: 850px;
+    height: 5px;
+    top: 605px;
+    z-index: 3;
+}
+
+
+.bottom-border{
+    margin-left: 400px;
+    background-color: rgb(137, 18, 242);
+    position:absolute;
+    width: 850px;
+    height: 20px;
+    top: 610px;
+    z-index: 3;
+    
+}
+
+.bottom-border-lower{
+    margin-left: 400px;
+    background-color: rgb(191, 127, 239);
+    position:absolute;
+    width: 850px;
+    height: 10px;
+    top: 630px;
+    z-index: 3;
+    
+}
+
+/* -------------------------------Menu Page--------------------------------------- */
+/* Menu background Style */
+.menu-back{
+    background-color: #887BB0;
+    height:1000px;
+    
+}
+
+/* Menu heading */
+.heading{
+    font-family: 'Alegreya', serif;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 0.1rem;
+    padding-top: 30px;
+    animation: sliding 2s linear;
+}    
+
+@keyframes sliding {
+        0%{
+            transform: translateX(-50px);
+          }
+}
+
+.border-menu{
+    border-top: solid 5px white;
+    width: 15%;
+    margin-left: 500px;
+    animation: slidingbor 2s linear;
+}
+
+@keyframes slidingbor {
+    0%{
+        transform: translateX(50px);
+      }
+}
+
+/* ----------------------------Image 1---------------------------- */
+
+/* Menu Image1 */
+
+.menu-img-1{
+    position: absolute;
+    width:360px;
+    height:310px;
+    left: 880px;
+    margin-top: 100px;
+  
+    
+}
+
+/* Image 1 border  */
+    .image-border{
+        position: absolute;
+        border: solid 2px white;
+        width:340px;
+        height:330px;
+        left: 890px;
+        margin-top: 90px;
+    }
+
+    .image-border-2{
+        position: absolute;
+        border: solid 2px white;
+        width:340px;
+        height:330px;
+        transform: rotate(10deg);
+    }
+
+/* Image 1 description */
+
+     .item1{
+        font-family:'Alegreya Sans', sans-serif ;
+        color: white;
+        margin-left: 100px;
+        text-align: justify;
+
+     }
+    
+    .title{
+        font-size: 35px;
+        font-weight: 10px;
+        margin-top: 50px;
+
+    }
+
+    .price{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+
+    .desc{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+
+    /* -----------------Border Heart ---------------------------------*/
+
+    .heart-border{
+        margin-left: 430px;
+        margin-top: 0px;
+        width: 450px;
+        animation: appear 3s linear infinite;
+    }
+
+    @keyframes appear {
+            50%{
+                transform: translateY(30px);
+              }
+    }
+        
+
+    /* ----------------------------Image 2---------------------------- */
+/* Image 2 description */
+
+     /* Menu Image2 */
+     .menu-img-2{
+        position: absolute;
+        width:270px;
+        height:400px;
+        left: 150px;
+        margin-top: 70px;
+    }
+
+
+/* Image 2 border */
+    .image-border-item2{
+        position: absolute;
+        border: solid 2px white;
+        width:250px;
+        height:420px;
+        left: 160px;
+        margin-top: 60px;
+    }
+
+    .image-border-item2-2{
+        position: absolute;
+        border: solid 2px white;
+        width:250px;
+        height:420px;
+        transform: rotate(-10deg);
+    }
+
+
+    /* Menu 2 description */
+
+    .item2{
+        font-family:'Alegreya Sans', sans-serif ;
+        color: white;
+        margin-left: 550px;
+
+     }
+    
+    .title-2{
+        font-size: 35px;
+        font-weight: 10px;
+        margin-top: 170px;
+
+    }
+    .buttn{
+        margin-left: 10px;
+    }
+
+    .price{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+
+    .desc{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+
+     /* ----------------------------Contact Us---------------------------- */
+
+
+     .contact-back-img{
+        background-image: url(background/contact-img.png);
+        height:800px;
+
+     }
+
+     .invitation{
+        position: absolute;
+     }
+
+    .invite{
+        font-family: 'Moon Dance', cursive;
+        text-shadow: rgb(208, 132, 241) 1px 0 10px;
+        font-size: 160px;
+        padding-top: 100px;
+        padding-left: 100px;
+        color: #FF7CBF;
+        text-shadow: black;
+
+     }
+    .border-img{
+        width: 300px;
+        left: 120px;
+    }
+     .cup-img{
+        padding-top: 80px;
+        padding-left: 250px;
+     }
+
+     .mailing-address{
+        position: absolute;
+        background-color: #887BB0;
+        width: 600px;
+        height: 600px;
+        margin-left: 600px;
+        margin-top: 80px;
+        border-radius: 50%;
+     }
+
+
+
+     .border-mail-2{
+        position: absolute;
+        width: 640px;
+        height: 640px;
+        border: solid #887BB0 20px;
+        border-radius: 50%;
+        border-width: 7px;
+        margin-left: 580px;
+        margin-top: 60px;
+        animation: spinup 3s linear infinite;
+     }
+
+     @keyframes spinup {
+        0%{
+            border-top: solid transparent ;
+            transform: rotate(0deg);
+        }
+        100%{
+            border-top: solid #887BB0 ;
+            transform: rotate(360deg);
+        }
+     }
+
+
+
+     .border-mail-1{
+        position: absolute;
+        width: 550px;
+        height: 550px;
+        border: solid white 20px;
+        border-radius: 50%;
+        margin-left: 625px;
+        margin-top: 105px;
+        border-width: 7px;
+        animation: spindown 3s linear infinite reverse;
+        
+     }
+
+     @keyframes spindown {
+        0%{
+            border-top: solid transparent ;
+            transform: rotate(0deg);
+        }
+        100%{
+            border-top: solid #887BB0 ;
+            transform: rotate(360deg);
+        }
+     }
+
+     .mail{
+        position: absolute;
+        text-align: center;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 25px;
+        color: white;
+        margin-top: 220px;
+        margin-left: 760px;
+        
+     }
