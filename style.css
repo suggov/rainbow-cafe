@@ -258,7 +258,7 @@ img {
     font-size: 60px;
     letter-spacing: 0.1rem;
     padding-top: 80px;
-    animation: sliding 2s linear;
+    animation: sliding 2s linear infinite forwards;
 }    
 
 @keyframes sliding {
