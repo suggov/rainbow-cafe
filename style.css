@@ -257,7 +257,7 @@ img {
     color: white;
     font-size: 60px;
     letter-spacing: 0.1rem;
-    padding-top: 60px;
+    padding-top: 80px;
     animation: sliding 2s linear;
 }    
 
@@ -271,7 +271,7 @@ img {
     border-top: solid 5px white;
     width: 15%;
     margin-left: 500px;
-    animation: slidingbor 2s linear;
+    animation: slidingbor 2s linear infinite forwards;
 }
 
 @keyframes slidingbor {
